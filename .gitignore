@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+node_modules/@prisma/client/
+
+# Test files
+*.test.ts
+coverage/
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+backend/*.env
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env

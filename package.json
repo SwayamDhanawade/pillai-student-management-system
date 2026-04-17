@@ -1,0 +1,15 @@
+{
+  "name": "pillai-student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System - Full Stack",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
